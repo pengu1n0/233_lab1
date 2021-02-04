@@ -2,9 +2,7 @@
 int main()
 {
     int a,i,n,answer=0;
-    printf("Ente number:");
     scanf("%d",&n);
-    printf("Enter %d number:",n);
     for(i=0; i<n; i++)
     {
         scanf("%d",&a);
@@ -13,5 +11,5 @@ int main()
             answer=a;
         }
     }
-    printf("Max number is %d\n",answer);
+    printf("%d\n",answer);
 }
